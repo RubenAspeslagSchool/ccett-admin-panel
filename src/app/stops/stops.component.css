@@ -1,0 +1,57 @@
+.busRoute {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 40%;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.busRoute section{
+    width: 40%;
+    padding: 20px;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+.busStop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.busStop section{
+   
+    width: 20%;
+    padding: 20px;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+

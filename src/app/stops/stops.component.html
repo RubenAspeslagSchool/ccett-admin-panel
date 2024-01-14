@@ -1,0 +1,9 @@
+<h2>Bus Stops</h2>
+<article class="busStop">
+  <section  *ngFor="let stop of stops">
+    <h3>{{ stop.name }} </h3>
+    <p>latitude {{ stop.latitude }}</p>
+    <p>longitude {{ stop.longitude }}</p>
+    <p>id {{ stop.id }}</p>
+  </section>
+</article>

@@ -1,0 +1,11 @@
+<h2>Routes</h2>
+
+<article class="busRoute">
+    <section  *ngFor="let route of routes">
+      <h3>route:{{ route.name }} </h3>
+       <h4>stops</h4>
+       <p *ngFor="let stop of route.stops">
+         {{ stop.name }} {{ stop.latitude }}°N, {{ stop.longitude }} °W
+       </p>
+    </section>
+  </article>
